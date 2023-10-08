@@ -1,3 +1,11 @@
+# Spotify Clone
+
+## Visit the website!
+
+You can visit [Spotify Clone](https://spotify-clone-hx2llsbab-ktsu2i.vercel.app/).
+
+-----------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

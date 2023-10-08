@@ -1,5 +1,4 @@
 import { Price } from "@/types"
-import { string } from "yargs"
 
 export const getURL = () => {
   let url =

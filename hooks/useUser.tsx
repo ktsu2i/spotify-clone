@@ -1,7 +1,7 @@
-import { User } from "@supabase/auth-helpers-nextjs"
 import {
   useSessionContext,
-  useUser as useSupaUser
+  useUser as useSupaUser,
+  User
 } from "@supabase/auth-helpers-react";
 import { createContext, useEffect, useState, useContext } from "react"
 
@@ -38,8 +38,8 @@ export const MyUserContextProvider = (props: Props) => {
   const getUserDetails = () => supabase.from('users').select('*').single()
   const getSubscription = () =>
     supabase
-      .from('subscription')
-      .select('*, price(*, products(*))')
+      .from('subscriptions')
+      .select('*, prices(*, products(*))')
       .in('status', ['trialing', 'active'])
       .single()
   

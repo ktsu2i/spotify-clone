@@ -2,7 +2,7 @@
 
 ## Visit the website!
 
-You can visit [Spotify Clone](https://spotify-clone-hx2llsbab-ktsu2i.vercel.app/).
+You can visit [Spotify Clone](https://spotify-clone-ktsu2i.vercel.app/).
 
 -----------------
 
